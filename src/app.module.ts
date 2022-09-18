@@ -6,6 +6,7 @@ import { LessonModule } from './lesson/lesson.module';
   imports: [
     GraphQLModule.forRoot({
       autoSchemaFile: true,
+      driver: 'neo4j',
     }),
     LessonModule,
   ],
