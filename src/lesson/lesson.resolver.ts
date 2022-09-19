@@ -1,4 +1,3 @@
-import { Injectable } from '@nestjs/common';
 import { Resolver, Query } from '@nestjs/graphql';
 import { LessonType } from './lesson.type';
 
