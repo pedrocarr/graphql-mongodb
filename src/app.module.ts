@@ -17,6 +17,7 @@ import { Lesson } from './lesson/lesson.entity';
     GraphQLModule.forRoot<ApolloDriverConfig>({
       autoSchemaFile: true,
       driver: ApolloDriver,
+      path: '/school',
     }),
     LessonModule,
   ],
